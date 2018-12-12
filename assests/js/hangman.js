@@ -102,7 +102,7 @@ document.onkeyup = function (event) {
 
 
 
-    while (remainingLetters > 0) {
+    if (remainingLetters > 0) {
         //show player progress
         var guessesEl = document.getElementById("blankspaces-text")
         guessesEl.innerHTML = blankSpacesAnswer.join(" ")
