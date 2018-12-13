@@ -1,46 +1,7 @@
-h1 {
-	font-family: 'Sedgwick Ave Display', cursive;
+body {
+    background-color: lightpink;
 }
 
-.jumbotron {
-	background-color: #DD4814;
+#title {
+    text-align: center;
 }
-
-.guessWord {
-	font-size: 20px;
-}
-
-/*.guessWord span {
-	margin-left: 15px;
-}*/
-
-.guessWord {
-	letter-spacing: 15px;
-}
-
-.well {
-	letter-spacing: 15px;
-}
-
-.messageText {
-	color: red;
-	font-size: 25px;
-}
-
-.generateWord {
-	background-color: #DD4814;
-	padding: 10px;
-	font-weight; bold;
-	font-family: 'Sedgwick Ave Display', cursive;
-	font-size: 20px;
-	margin-bottom: 15px;
-}
-
-input[type="text"] {
-	font-family: 'Sedgwick Ave Display', cursive;
-	font-size: 20px;
-}
-
-/*#imgCanvas {
-	border: 3px solid #DD4814;
-}*/
