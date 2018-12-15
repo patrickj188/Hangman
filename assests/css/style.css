@@ -32,7 +32,7 @@ body {
     color: whitesmoke;
  }
  .card1 {
-     margin-top: 100px;
+
      border: none;
      font-family: 'Cinzel', serif;
      color: whitesmoke;
@@ -41,6 +41,7 @@ body {
  .card2 {
     font-family: 'Cinzel', serif;
     color: whitesmoke;
+    margin-top: 100px;
 
  }
 
