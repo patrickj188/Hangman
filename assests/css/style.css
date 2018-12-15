@@ -1,69 +1,47 @@
 body {
-    background-color: lightcyan;
+    background-image: url(../images/ep_naturalblack.png);
 }
-
 #title {
     text-align: center;
-    border: 1px solid black;
-    padding: 30px 0;
+    /* border: 1px solid black; */
+    padding: 50px 0;
     margin: 0 0 30px 0;
+    font-family: 'Cinzel', serif;
+    font-size: 70px;
+    color: whitesmoke;
 }
-#container-left {
-    border: 1px solid black;
-    width: 600px;
-    height: 200px;
-    margin: 10px 10px;
-    padding: 10px 10px;
+  .card1 {
+      background: none;
+      flex-wrap: wrap;
+      border: 1px solid black;
+      color: whitesmoke;
+    
+  }
+ .display-3 {
+     text-align: center;
+     border-bottom: 1px whitesmoke solid;
+     font-family: 'Old Standard TT', serif;
+     color: whitesmoke;
+ }
+ .card {
     float: left;
+    background: none;
+    border: none;
+    margin-left: 50px;
+    font-family: 'Cinzel', serif;
+    color: whitesmoke;
+ }
+ .card1 {
+     margin-top: 100px;
+     border: none;
+     font-family: 'Cinzel', serif;
+     color: whitesmoke;
+     
+ }
+ .card2 {
+    font-family: 'Cinzel', serif;
+    color: whitesmoke;
 
-}
-#container-right {
-    border: 1px solid black;
-    width: 600px;
-    height: 200px;
-    margin: 10px 10px;
-    padding: 10px 10px;
-    float: left;
-
-
-}
-
-#grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
-  }
-  
-  #grid-container > div {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
-  
-  .item1 {
-    grid-column-start: 1;
-    grid-column-end: 1;
-  }
-
-
-#win-text {
-
-}
-#losses-text{
-
-}
-#hint-text {
-
-}
-#blankspaces-text {
-
-}
-#guesses-left {
-
-}
-#usser-guesses-text {
-
-}
+ }
 
 
