@@ -14,7 +14,6 @@ var remainingLetters;
 setup();
 
 initialize();
-
 function setup() {
     blanksAndSuccesses = document.getElementById("blankspaces-text");
     winCounter = 0;
